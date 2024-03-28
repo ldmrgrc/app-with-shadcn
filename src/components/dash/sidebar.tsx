@@ -16,7 +16,7 @@ import { Logo } from '../logo';
 export const Sidebar = () => {
   return (
     <aside className='min-h-screen'>
-      <div className="flex flex-col h-full w-20 md:w-56 border-r p-3">
+      <div className="flex flex-col h-full w-56 border-r p-3">
         <Logo />
         <nav className="flex-1 overflow-y-auto mt-16 md:mt-8">
           <ul className='space-y-2'>
